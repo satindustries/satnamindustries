@@ -110,3 +110,17 @@ document.addEventListener('DOMContentLoaded', () => {
 fetch('/api/data')
   .then(response => response.json())
   .then(data => console.log(data));  // Console mein data print hoga
+
+
+
+
+//   path code
+
+// Original path
+let path = "C:\\Users\\Srabani\\OneDrive\\文档\\GitHub\\satnamindusties";
+
+// Replace 'Srabani' with 'Satnam'
+let updatedPath = path.replace("Srabani", "Satnam");
+
+// Output the updated path
+console.log(updatedPath);
